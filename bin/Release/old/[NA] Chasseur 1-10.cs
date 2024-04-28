@@ -1,0 +1,75 @@
+[(-2,-3)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Right); },
+],
+[(-1,-3)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Up); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Right); },
+],
+[(-1,-4)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Up); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Right); },
+],
+[(-1,-5)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Down); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Right); },
+],
+[(0,-5)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Down); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Left); },
+],
+[(0,-4)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Up); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Left); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Right); },
+],
+[(0,-3)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Up); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Left); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Right); },
+],
+[(1,-3)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Up); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Left); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Right); },
+],
+[(2,-3)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Up); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Left); },
+],
+[(1,-4)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Up); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Down); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Left); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Right); },
+],
+[(2,-4)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Up); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Down); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Left); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Right); },
+],
+[(2,-5)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Down); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Left); },
+],
+[(1,-5)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Down); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Right); },
+],
+[(3,-4)] = [
+  async () => { await Map.FightAsync(new FightOptionsBuilder().WithMinMonsters(1).WithMaxMonsters(2).Build()); },
+  async () => { await Map.ChangeToAsync(ChangeMapSide.Left); },
+],
